@@ -8,4 +8,8 @@ public class Cappuccino extends Manufacture<Cappuccino>{
     List<Cappuccino> getCoffee(String taste,String way){
         return cappuccino;
     }
+
+    @Override
+    void test() {
+    }
 }

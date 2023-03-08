@@ -15,4 +15,8 @@ public class CafeAmericano extends Manufacture<CafeAmericano> {
     void sugar(int b){
 
     }
+
+    @Override
+    void test() {
+    }
 }

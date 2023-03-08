@@ -11,4 +11,8 @@ public class MochaCoffee extends Manufacture<MochaCoffee> {
     void bubble(Boolean a){
 
     }
+
+    @Override
+    void test() {
+    }
 }

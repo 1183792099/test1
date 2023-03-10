@@ -1,10 +1,9 @@
 package wang.coffee.manufacture;
 
-public class CafeAmericanoManufacture extends Manufacture<CafeAmericano> {
+public class CafeAmericanoManufacture extends Manufacture<CafeAmericano,CafeAmericanoOrder> {
 
     @Override
-    CafeAmericano Manufacture(Order order) {
-        CafeAmericanoOrder cafeAmericanoOrder = (CafeAmericanoOrder)order;
+    CafeAmericano Manufacture(CafeAmericanoOrder cafeAmericanoOrder) {
         CafeAmericano cafeAmericano = new CafeAmericano();
         cafeAmericano.milk = cafeAmericanoOrder.f;
         cafeAmericano.suger = cafeAmericanoOrder.n;

@@ -1,9 +1,9 @@
 package wang.coffee.manufacture;
 
-public class CappuccinoManufacture extends Manufacture<Cappucino>{
+public class CappuccinoManufacture extends Manufacture<Cappucino,CappuccinoOrder>{
 
     @Override
-    Cappucino Manufacture(Order order) {
+    Cappucino Manufacture(CappuccinoOrder cappuccinoOrder) {
         Cappucino cappucino = new Cappucino();
         return cappucino;
     }
